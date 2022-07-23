@@ -29,7 +29,6 @@ tasks.test {
     useJUnitPlatform()
 }
 
-
 configurations {
     all {
         exclude(group = "org.slf4j", module = "slf4j-log4j12")
